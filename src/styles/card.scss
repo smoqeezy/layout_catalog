@@ -24,6 +24,7 @@
     font-weight: $font-weight-medium;
     color: $color-text-main;
     line-height: $line-height-large;
+    transition: color 300ms;
   }
 
   &__code {
@@ -65,7 +66,7 @@
     font-weight: $font-weight-bold;
   }
 
-  &__button {
+  &__buy {
     margin-top: auto;
     margin-bottom: 16px;
     width: $button-width;
@@ -88,7 +89,8 @@
     &:hover {
       background-color: $color-white;
       color: $color-primary;
-      border: 1px solid $color-primary; 
+      border: 1px solid $color-primary;
+      box-sizing: border-box;
     }
   }
 }

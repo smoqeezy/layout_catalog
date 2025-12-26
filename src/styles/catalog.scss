@@ -6,7 +6,7 @@
 
   gap: $catalog-gap-y $catalog-gap-x;
 
-  grid-template-columns: repeat(auto-fill, $card-width);
+  grid-template-columns: repeat( 1, $card-width);
 
   @media (min-width: 488px) {
     grid-template-columns: repeat(2, $card-width);
