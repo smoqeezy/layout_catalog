@@ -4,8 +4,7 @@
 
   padding: $catalog-padding-vertical $catalog-padding-horizontal;
 
-  column-gap: $catalog-gap-x;
-  row-gap: $catalog-gap-y;
+  gap: $catalog-gap-y $catalog-gap-x;
 
   grid-template-columns: repeat(auto-fill, $card-width);
 

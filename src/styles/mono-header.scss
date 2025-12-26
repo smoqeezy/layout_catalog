@@ -1,4 +1,5 @@
 @import 'variables';
+
 .moyo-header {
   display: flex;
   align-items: center;
@@ -40,6 +41,7 @@
     position: relative;
     text-align: center;
     text-transform: uppercase;
+    transition: color 300ms; 
   }
 
   &__brand a {
